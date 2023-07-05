@@ -3,10 +3,10 @@ const express = require("express");
 const app = express();
 const port = 8081;
 
-app.use(express.json);
+app.use(express.json());
 
 app.get("/" , (req,res) =>{
-    res.status(200).json({
+    res.status(200).send({
         message : "Running succesfully"
     });
 });
