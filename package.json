@@ -1,0 +1,26 @@
+{
+  "name": "book-record-management-backend",
+  "version": "1.0.0",
+  "description": "Book management api built using node and express",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node index.js",
+    "dev" : "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BhanuPrakash0710/book-record-management-backend.git"
+  },
+  "author": "Bhanu Prakash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BhanuPrakash0710/book-record-management-backend/issues"
+  },
+  "homepage": "https://github.com/BhanuPrakash0710/book-record-management-backend#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
